@@ -1,0 +1,186 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    padding: 0;
+    margin: auto;
+    max-width: 1040px;
+    font-family: 'Roboto', helvetica, arial, sans-serif;
+}
+
+.header,.footer {
+    background: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    position: relative;
+}
+
+.header:before,.footer:before {
+    background: #1F2937;
+    content: "";
+    left: -50vw;
+    height: 100%;
+    position: absolute;
+    width: 150vw;
+    z-index: -1;
+}
+
+button,.sign-up {
+    background: #3882F6;
+    color: #E5E7EB;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    font-size: 18px;
+    font-weight: 500;
+    height: 38px;
+    width: 130px;
+}
+
+.header .title {
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.header h1 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul {
+    list-style-type: none;
+    padding: none;
+}
+
+.header li {
+    display: inline-block;
+    margin-left: 1em;
+}
+
+.hero-header {
+    display: flex;
+    padding: 120px 0;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 450px;
+    margin-right: 50px;
+}
+
+.hero-text .title {
+    font-size: 48px;
+}
+
+.hero-image {
+    background: #6d747d;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    margin: 42px;
+}
+
+.card-board {
+    width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 160px;
+}
+
+.card-img { 
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+    height: 160px;
+    width: 100%;
+}
+
+.card-caption {
+    color: #4b5563;
+    font-size: 17px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.quote {
+    align-items: center;
+    background: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    height: 400px;
+    justify-content: center;
+    margin: 100px auto;
+    position: relative;
+    width: 800px;
+}
+
+.quote:before {
+    background: #E5E7EB;
+    content: "";
+    left: -50vw;
+    height: 100%;
+    position: absolute;
+    width: 150vw;
+    z-index: -1;
+}
+
+.quote-attribution {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.sign-up {
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+    padding: 50px 120px;
+}
+
+.sign-up-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sign-up .subtext {
+    font-size: 18px;
+}
+
+.sign-up button {
+    border: 2px solid #E5E7EB;
+}
+
+.footer {
+    align-items: center;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+}
